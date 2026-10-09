@@ -1,0 +1,28 @@
+
+//== Font
+
+$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size:             16px;
+$font-height:           1.5;
+
+//== Color
+// Main colors
+$color-primary:       #1683FF;
+$color-secondary:     #6C4DFF;
+$color-accent:        #39D98A;
+
+// Normal mode
+$color-foreground:      #202020;
+$color-background:      #ECECEC;
+$color-link:            $color-primary;
+
+// // Dark mode
+// $color-foreground-dark: invert($color-foreground);
+// $color-background-dark: invert($color-background);
+// $color-link-dark:       invert($color-link);
+
+
+// Dark theme
+$color-foreground-dark: #F5F7FF;
+$color-background-dark: #0B1220;
+$color-link-dark:       $color-primary;

@@ -1,0 +1,41 @@
+// Best practice:
+// For a good separation of concerns, don't rely on the DOM element names,
+// but on dedicated CSS selectors to identify all elements
+// .cmp-helloworld {}
+// .cmp-helloworld__title {}
+// .cmp-helloworld__item {}
+// .cmp-helloworld__item-label {
+//     margin-bottom: 0;
+// }
+// .cmp-helloworld__item-output {
+//     margin-top: 0;
+// }
+.cmp-helloworld {
+    margin: 0;
+}
+
+.cmp-helloworld__title {
+    color: $color-foreground-dark;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 0 12px;
+}
+
+.cmp-helloworld__item {
+    background: #16233B;
+    border: 1px solid #2D4A73;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.cmp-helloworld__item-label {
+    margin-bottom: 0;
+    color: $color-foreground-dark;
+    font-weight: 600;
+}
+
+.cmp-helloworld__item-output {
+    margin-top: 8px;
+    color: #C7D2E5;
+}
